@@ -4,48 +4,48 @@
     "short_code": "4c92ab",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/200px-Wikipedia-logo-v2.svg.png",
     "description": "Artículo sobre arquitectura hexagonal en Wikipedia explicando sus principios fundamentales de diseño de software",
-    "_class": "com.acortador.infrastructure.adapter.output.mongodb.LinkMetadataDocument"
+    "_class": "com.parcial.urlshortener.infrastructure.adapters.output.mongodb.LinkMetadataDocument"
   },
   {
     "_id": { "$oid": "6627a1000000000000000002" },
     "short_code": "5d83bc",
     "image_url": "https://spring.io/img/spring-2.svg",
     "description": "Sitio oficial de Spring Boot el framework de Java más popular para crear aplicaciones de producción",
-    "_class": "com.acortador.infrastructure.adapter.output.mongodb.LinkMetadataDocument"
+    "_class": "com.parcial.urlshortener.infrastructure.adapters.output.mongodb.LinkMetadataDocument"
   },
   {
     "_id": { "$oid": "6627a1000000000000000003" },
     "short_code": "6e74cd",
     "image_url": "https://www.mongodb.com/assets/images/global/leaf.png",
     "description": "Documentación oficial de MongoDB la base de datos NoSQL orientada a documentos más utilizada del mundo",
-    "_class": "com.acortador.infrastructure.adapter.output.mongodb.LinkMetadataDocument"
+    "_class": "com.parcial.urlshortener.infrastructure.adapters.output.mongodb.LinkMetadataDocument"
   },
   {
     "_id": { "$oid": "6627a1000000000000000004" },
     "short_code": "7f65de",
     "image_url": "https://redis.io/wp-content/uploads/2024/04/Logotype.svg",
     "description": "Guía de inicio rápido de Redis el sistema de caché en memoria de alto rendimiento y baja latencia",
-    "_class": "com.acortador.infrastructure.adapter.output.mongodb.LinkMetadataDocument"
+    "_class": "com.parcial.urlshortener.infrastructure.adapters.output.mongodb.LinkMetadataDocument"
   },
   {
     "_id": { "$oid": "6627a1000000000000000005" },
     "short_code": "8a56ef",
     "image_url": "https://labs.mysql.com/common/logos/mysql-logo.svg",
     "description": "Introducción oficial a MySQL el sistema de gestión de bases de datos relacionales más popular de código abierto",
-    "_class": "com.acortador.infrastructure.adapter.output.mongodb.LinkMetadataDocument"
+    "_class": "com.parcial.urlshortener.infrastructure.adapters.output.mongodb.LinkMetadataDocument"
   },
   {
     "_id": { "$oid": "6627a1000000000000000006" },
     "short_code": "9b47f0",
     "image_url": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
     "description": "Introducción a Docker el sistema de contenedores que facilita el despliegue de aplicaciones en cualquier entorno",
-    "_class": "com.acortador.infrastructure.adapter.output.mongodb.LinkMetadataDocument"
+    "_class": "com.parcial.urlshortener.infrastructure.adapters.output.mongodb.LinkMetadataDocument"
   },
   {
     "_id": { "$oid": "6627a1000000000000000007" },
     "short_code": "0c38a1",
     "image_url": "https://www.youtube.com/img/desktop/yt_1200.png",
     "description": "Video viral de YouTube que se ha convertido en un clásico de la cultura de internet muy conocido globalmente",
-    "_class": "com.acortador.infrastructure.adapter.output.mongodb.LinkMetadataDocument"
+    "_class": "com.parcial.urlshortener.infrastructure.adapters.output.mongodb.LinkMetadataDocument"
   }
 ]

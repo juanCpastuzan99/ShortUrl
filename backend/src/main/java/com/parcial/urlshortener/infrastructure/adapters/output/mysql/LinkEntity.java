@@ -3,6 +3,10 @@ package com.parcial.urlshortener.infrastructure.adapters.output.mysql;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+/**
+ * MySQL almacena ÚNICAMENTE: enlace original + enlace acortado (+ id y fecha).
+ * La imagen y descripción viven en MongoDB; la caché de URLs largas en Redis.
+ */
 @Entity
 @Table(name = "enlaces")
 public class LinkEntity {
@@ -16,9 +20,6 @@ public class LinkEntity {
 
     @Column(name = "enlaceAcortado", nullable = false, length = 50, unique = true)
     private String enlaceAcortado;
-
-    @Column(name = "descripcion", columnDefinition = "TEXT")
-    private String descripcion;
 
     @Column(name = "creadoEn", nullable = false, updatable = false)
     private LocalDateTime creadoEn;
@@ -36,9 +37,6 @@ public class LinkEntity {
 
     public String getEnlaceAcortado() { return enlaceAcortado; }
     public void setEnlaceAcortado(String enlaceAcortado) { this.enlaceAcortado = enlaceAcortado; }
-
-    public String getDescripcion() { return descripcion; }
-    public void setDescripcion(String descripcion) { this.descripcion = descripcion; }
 
     public LocalDateTime getCreadoEn() { return creadoEn; }
     public void setCreadoEn(LocalDateTime creadoEn) { this.creadoEn = creadoEn; }
