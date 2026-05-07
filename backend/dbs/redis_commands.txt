@@ -1,0 +1,36 @@
+# ============================================================
+# Acortador de Enlaces - Redis Cache Commands
+# Solo se cachean URLs con longitud >= 50 caracteres
+# TTL: 7 días (604800 segundos)
+# ============================================================
+# Ejecutar con: redis-cli < redis_commands.txt
+# O uno por uno en redis-cli
+# ============================================================
+
+# 4c92ab -> https://www.wikipedia.org/wiki/Arquitectura_hexagonal (53 chars ✓)
+SET link:4c92ab "https://www.wikipedia.org/wiki/Arquitectura_hexagonal" EX 604800
+
+# 5d83bc -> https://spring.io/projects/spring-boot (42 chars ✗ - NO se cachea)
+# OMITIDO: longitud 42 < 50
+
+# 6e74cd -> https://www.mongodb.com/docs/manual/introduction/ (52 chars ✓)
+SET link:6e74cd "https://www.mongodb.com/docs/manual/introduction/" EX 604800
+
+# 7f65de -> https://redis.io/docs/latest/develop/get-started/ (53 chars ✓)
+SET link:7f65de "https://redis.io/docs/latest/develop/get-started/" EX 604800
+
+# 8a56ef -> https://dev.mysql.com/doc/refman/8.0/en/introduction.html (62 chars ✓)
+SET link:8a56ef "https://dev.mysql.com/doc/refman/8.0/en/introduction.html" EX 604800
+
+# 9b47f0 -> https://docs.docker.com/get-started/overview/ (48 chars ✗ - NO se cachea)
+# OMITIDO: longitud 48 < 50
+
+# 0c38a1 -> https://www.youtube.com/watch?v=dQw4w9WgXcQ (47 chars ✗ - NO se cachea)
+# OMITIDO: longitud 47 < 50
+
+# ============================================================
+# Verificar el cache:
+# redis-cli KEYS "link:*"
+# redis-cli GET "link:4c92ab"
+# redis-cli TTL "link:4c92ab"
+# ============================================================
