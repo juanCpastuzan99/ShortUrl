@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.output.mongodb;
+package com.parcial.urlshortener.adapters.mongodb;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

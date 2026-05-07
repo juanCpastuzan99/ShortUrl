@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.output.mongodb;
+package com.parcial.urlshortener.adapters.mongodb;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

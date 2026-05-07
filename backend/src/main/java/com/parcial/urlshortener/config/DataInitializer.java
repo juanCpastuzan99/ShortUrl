@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.config;
+package com.parcial.urlshortener.config;
 
 import com.parcial.urlshortener.domain.model.LinkMetadata;
 import com.parcial.urlshortener.domain.ports.output.LinkCachePort;

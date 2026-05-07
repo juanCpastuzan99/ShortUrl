@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.output.mysql;
+package com.parcial.urlshortener.adapters.mysql;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

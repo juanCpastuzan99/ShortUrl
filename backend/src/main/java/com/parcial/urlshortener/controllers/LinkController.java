@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.input.rest;
+package com.parcial.urlshortener.controllers;
 
 import com.parcial.urlshortener.domain.model.Link;
 import com.parcial.urlshortener.domain.model.LinkReport;

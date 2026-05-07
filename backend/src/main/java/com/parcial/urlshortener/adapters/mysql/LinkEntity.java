@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.output.mysql;
+package com.parcial.urlshortener.adapters.mysql;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

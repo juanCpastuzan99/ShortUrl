@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.config;
+package com.parcial.urlshortener.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

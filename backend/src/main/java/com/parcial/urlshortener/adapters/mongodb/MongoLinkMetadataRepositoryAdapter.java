@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.output.mongodb;
+package com.parcial.urlshortener.adapters.mongodb;
 
 import com.parcial.urlshortener.domain.model.LinkMetadata;
 import com.parcial.urlshortener.domain.ports.output.LinkMetadataRepositoryPort;

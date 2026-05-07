@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.config;
+package com.parcial.urlshortener.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

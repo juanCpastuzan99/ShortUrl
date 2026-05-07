@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.output.redis;
+package com.parcial.urlshortener.adapters.redis;
 
 import com.parcial.urlshortener.domain.ports.output.LinkCachePort;
 import org.slf4j.Logger;

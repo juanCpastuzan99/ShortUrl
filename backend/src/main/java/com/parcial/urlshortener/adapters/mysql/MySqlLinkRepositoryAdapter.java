@@ -1,4 +1,4 @@
-package com.parcial.urlshortener.infrastructure.adapters.output.mysql;
+package com.parcial.urlshortener.adapters.mysql;
 
 import com.parcial.urlshortener.domain.model.Link;
 import com.parcial.urlshortener.domain.ports.output.LinkRepositoryPort;
